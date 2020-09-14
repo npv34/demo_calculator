@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<table>
+    <tr>
+        <td colspan="5">
+            <input type="text" id="out-put">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <button value="1" onclick="setOutput(1)">1</button>
+        </td>
+        <td>
+            <button onclick="setOutput(2)">2</button>
+        </td>
+        <td>
+            <button onclick="setOutput(3)">3</button>
+        </td>
+        <td>
+            <button onclick="setOutput('+')">+</button>
+        </td>
+        <td>
+            <button onclick="clearNumber()"><=</button>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <button onclick="setOutput(4)">4</button>
+        </td>
+        <td>
+            <button onclick="setOutput(5)">5</button>
+        </td>
+        <td>
+            <button onclick="setOutput(6)">6</button>
+        </td>
+        <td>
+            <button onclick="setOutput('-')">-</button>
+        </td>
+        <td>
+            <button onclick="setOutput('M')">M</button>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <button onclick="setOutput(7)">7</button>
+        </td>
+        <td>
+            <button onclick="setOutput(8)">8</button>
+        </td>
+        <td>
+            <button onclick="setOutput(9)">9</button>
+        </td>
+        <td>
+            <button onclick="setOutput('*')">X</button>
+        </td>
+        <td>
+            <button onclick="setOutput('M-')">M-</button>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <button onclick="clearOutput()">C</button>
+        </td>
+        <td>
+            <button onclick="setOutput(0)">0</button>
+        </td>
+        <td>
+            <button onclick="calculator()">=</button>
+        </td>
+        <td>
+            <button onclick="setOutput('/')">/</button>
+        </td>
+        <td>
+            <button onclick="setOutput('.')">.</button>
+        </td>
+    </tr>
+</table>
+<script src="js/my.js"></script>
+</body>
+</html>
