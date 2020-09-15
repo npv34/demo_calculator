@@ -21,5 +21,5 @@ function clearOutput() {
 
 function clearNumber() {
     let output = document.getElementById("out-put").value;
-    console.log(output)
+    document.getElementById("out-put").value = output.slice(0, -1);
 }
